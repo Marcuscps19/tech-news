@@ -1,4 +1,4 @@
-# Tech News :news_paper:
+# Tech News :newspaper:
 
 Este projeto foi desenvolvido durante o curso de desenvolvimento web da [Trybe](https://www.betrybe.com/).
 
