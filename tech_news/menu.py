@@ -1,8 +1,8 @@
 import sys
-from tech_news.scraper import get_tech_news
-from tech_news.analyzer.search_engine import (
+from scraper import get_tech_news
+from analyzer.search_engine import (
     search_by_source, search_by_title, search_by_date, search_by_category)
-from tech_news.analyzer.ratings import top_5_categories, top_5_news
+from analyzer.ratings import top_5_categories, top_5_news
 
 
 # Requisito 12
@@ -70,3 +70,7 @@ def print_data(function, input_text):
 def input_get_news():
     qty = input("Digite quantas notícias serão buscadas:")
     print(get_tech_news(int(qty)))
+
+
+if(__name__ == '__main__'):
+    analyzer_menu()
